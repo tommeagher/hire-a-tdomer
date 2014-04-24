@@ -5,8 +5,8 @@
   	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<meta name="description" content="Four ways to make holiday magic with your microwave">
-  	<meta name="author" content="Digital First Media">
+  	<meta name="description" content="How many Thunderdomers are still on the market">
+  	<meta name="author" content="Thunderdome">
 	
   	<link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
 
@@ -74,6 +74,10 @@
 		$("#percDisp").text( (100-Math.ceil((perc * 100))) + "% are still on the market")
 		$("#themeter").attr("height", meterH);
 		$("#themeter").attr("y", 5.941 + 350 - meterH);
+
+		if (jobs == total) {
+			$("#answer").text("NO");
+		}
 
 
 	</script>
