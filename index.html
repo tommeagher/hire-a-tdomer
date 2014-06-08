@@ -59,9 +59,9 @@
 
 
 	<h3 id="percDisp">000% have found jobs</h3>
-	<h2><strong>What is Thunderdome?</strong><br /> <a href="http://www.insidethunderdome.com/">Thunderdome</a> was Digital First Media’s centralized news hub, providing content, support and coordination to the local newsrooms of the country's second-largest newspaper chain. </h2>
-	<h2><strong>Who can I hire?</strong><br /> We are producers, reporters, designers, editors, developers and journalists of all kinds. We all have <a href="http://youtu.be/txDvJUIlWE8">the digital reporting and visual storytelling skills</a> your newsroom needs. To find out more about us, you can read up on <a href="http://insidethunderdome.com/about/who-we-are/">the folks who worked at Thunderdome</a>.	</h2>
-	<h2> Some of our alumni <a href="http://insidethunderdome.com/2014/04/30/project-thunderdome-staff/">have already landed jobs</a> at the New York Times, the Guardian, Conde Nast, Reuters, the New York Daily News, Bleacher Report and elsewhere. Others have <a href="http://danielbachhuber.com/2014/04/02/introducing-hand-built/">launched their own businesses</a> or accepted fellowships, including the prestigious <a href="http://knight.stanford.edu/news-notes/2014/us-knight-fellows-for-2014-15-announced/">John S. Knight Journalism Fellowship at Stanford</a>.
+	<h2><strong>What is Thunderdome?</strong><br /> <a href="http://www.insidethunderdome.com/">Thunderdome</a> was Digital First Media’s centralized news hub, providing content, support and coordination to local newsrooms in the country's second-largest newspaper chain. </h2>
+	<h2><strong>Who can I hire?</strong><br /> We are producers, reporters, designers, editors, developers and journalists of all kinds. We all have <a href="http://youtu.be/txDvJUIlWE8">the digital reporting and visual storytelling skills</a> your newsroom needs. To find out more about us, you can read up on <a href="http://outsidethunderdome.com/about/who-we-are/">the folks who worked at Thunderdome</a>.	</h2>
+	<h2> Some of our alumni <a href="http://outsidethunderdome.com/2014/04/30/project-thunderdome-staff/">have landed jobs</a> at the New York Times, the Guardian, Conde Nast, Reuters, the New York Daily News, Bleacher Report and elsewhere. Others have <a href="http://danielbachhuber.com/2014/04/02/introducing-hand-built/">launched their own businesses</a> or accepted fellowships, including the prestigious <a href="http://knight.stanford.edu/news-notes/2014/us-knight-fellows-for-2014-15-announced/">John S. Knight Journalism Fellowship at Stanford</a>.
 
 	</h2>
 	<h2>But there are still good digital journalists looking for their next great newsroom. If you want to talk to someone about a job you're trying to fill, <a href="mailto:hello+tdome@canistillhireathunderdomer.com">email us</a>, and we'll put you in touch with our colleagues.</h2>
@@ -74,7 +74,7 @@
 		var total = 48;
 		var perc = jobs/total;
 		var meterH = 340 * perc;
-		$("#percDisp").text( (100-Math.ceil((perc * 100))) + "% are still on the market")
+		$("#percDisp").text( (100-Math.ceil((perc * 100))) + "% are on the market")
 		$("#themeter").attr("height", meterH);
 		$("#themeter").attr("y", 5.941 + 350 - meterH);
 
