@@ -23,7 +23,7 @@
 
 <body>
 	<h1>Can I still hire a Thunderdomer?</h1>
-	<div id="answer">Yes, but not for long</div>
+	<div id="answer">Yes</div>
 
 	<div style="height: 400px">
 		<?xml version="1.0" encoding="utf-8"?>
@@ -74,7 +74,7 @@
 		var total = 48;
 		var perc = jobs/total;
 		var meterH = 340 * perc;
-		$("#percDisp").text( (100-Math.ceil((perc * 100))) + "% are on the market")
+		$("#percDisp").text("But not for long. " + (100-Math.ceil((perc * 100))) + "% are still on the market")
 		$("#themeter").attr("height", meterH);
 		$("#themeter").attr("y", 5.941 + 350 - meterH);
 
