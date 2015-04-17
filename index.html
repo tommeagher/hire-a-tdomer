@@ -75,7 +75,7 @@ auto;">
 		var total = 48;
 		var perc = jobs/total;
 		var meterH = 340 * perc;
-		$("#percDisp").text("But not for long. " + (100-Math.ceil((perc * 100))) + "% are still on the market")
+		$("#percDisp").text((100-Math.ceil((perc * 100))) + "% are still on the market")
 		$("#themeter").attr("height", meterH);
 		$("#themeter").attr("y", 5.941 + 350 - meterH);
 
